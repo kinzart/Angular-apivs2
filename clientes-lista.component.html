@@ -1,0 +1,16 @@
+<p>clientes-lista works!</p>
+<h2>Lista</h2>
+
+<ul>
+    <li *ngFor="let c of clientes">
+    	<label>Nome:</label>
+       <h3>{{c.client}}</h3><br> .
+       	<label>Endereço:</label>
+       <h3> {{c.address}} </h3> .
+       	<label>Contato:</label>
+       <h3> {{c.contact}} </h3> .
+       	<label>Pedido:</label>
+       <h3> {{c.order}} </h3>
+       <hr><hr>
+    </li>
+</ul>
